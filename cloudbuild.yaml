@@ -16,7 +16,7 @@ steps:
   - |
     echo "Docker Container Built"
     ls -la
-    ls -al models/
+    ls -al model/
 
 # deploy container image to GKE
 - name: "gcr.io/cloud-builders/gke-deploy"

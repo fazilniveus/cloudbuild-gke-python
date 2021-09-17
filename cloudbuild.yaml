@@ -22,7 +22,7 @@ steps:
 - name: "gcr.io/cloud-builders/gke-deploy"
   args:
   - run
-  - --filename=K8s/
+  - --filename=K8s_configs/
   - --image=gcr.io/$PROJECT_ID/python-mlapp
   - --location=asia-southeast1-a
   - --cluster=cluster-1

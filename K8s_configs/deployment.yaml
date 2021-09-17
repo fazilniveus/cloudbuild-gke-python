@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nlp-app
-        image: gcr.io/k8s-sent-deployment/myapp:v1
+        image: gcr.io/instant-maxim-325506/python-mlapp
         ports:
         - containerPort: 5000

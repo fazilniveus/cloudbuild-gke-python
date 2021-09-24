@@ -24,7 +24,7 @@ steps:
   - run
   - --filename=K8s_configs/
   - --image=gcr.io/$PROJECT_ID/python-mlapp
-  - --location=asia-southeast1-a
+  - --location=us-central1-c
   - --cluster=cluster-1
 
 options:

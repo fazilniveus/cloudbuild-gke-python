@@ -27,5 +27,4 @@ steps:
   - --location=asia-south1-a
   - --cluster=jenkins-jen-cluster
 
-options:
-  logging: CLOUD_LOGGING_ONLY
+

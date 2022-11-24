@@ -24,8 +24,8 @@ steps:
   - run
   - --filename=K8s_configs/
   - --image=gcr.io/$PROJECT_ID/python-mlapp
-  - --location=us-central1-c
-  - --cluster=cluster-1
+  - --location=asia-south1-a
+  - --cluster=jenkins-jen-cluster
 
 options:
   logging: CLOUD_LOGGING_ONLY
